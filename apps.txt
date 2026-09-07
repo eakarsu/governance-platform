@@ -1,0 +1,12 @@
+ai-agent-governance-control-tower
+ai-board-governance-briefing-assistant
+ai-product-compliance-evidence-vault
+ai-regulatory-change-impact-mapper
+ai_regulatory_compliance
+AIAutomatedatagovernance
+AIExportControlSanctionsScreener
+AIGDPRDataMappingPrivacyManager
+AIGovernanceModelOps
+AIHIPAATrainingComplianceAuditor
+AiRegulatoryCompliance
+third-party-risk-grc-suite

@@ -1,0 +1,9 @@
+{
+  "app": "governance-platform",
+  "features": 220,
+  "sourceApps": 12,
+  "calculatorEngines": 0,
+  "registryHash": "654a578b3ceefeccb72f52de03fccd593b7b13a0b3dbeb1b3aa48c40b225102c",
+  "builtAt": "2026-09-07T22:05:39.498Z",
+  "status": "built"
+}

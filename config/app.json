@@ -1,0 +1,39 @@
+{
+  "id": "governance-platform",
+  "title": "Governance, privacy & compliance",
+  "buyer": "Governance, compliance and privacy teams",
+  "sourceCount": 12,
+  "sources": [
+    "ai-agent-governance-control-tower",
+    "ai-board-governance-briefing-assistant",
+    "ai-product-compliance-evidence-vault",
+    "ai-regulatory-change-impact-mapper",
+    "ai_regulatory_compliance",
+    "AIAutomatedatagovernance",
+    "AIExportControlSanctionsScreener",
+    "AIGDPRDataMappingPrivacyManager",
+    "AIGovernanceModelOps",
+    "AIHIPAATrainingComplianceAuditor",
+    "AiRegulatoryCompliance",
+    "third-party-risk-grc-suite"
+  ],
+  "status": "proposed build; not implemented",
+  "canonicalFeatureStatus": "Requires feature-level mapping and workflow migration; source route counts are not feature-completion counts.",
+  "port": 46021,
+  "productName": "Governance, privacy Workspace",
+  "runtimeVersion": "1.0.0",
+  "sourceRoots": [
+    "/Volumes/external/projects/ai-agent-governance-control-tower",
+    "/Volumes/external/projects/ai-board-governance-briefing-assistant",
+    "/Volumes/external/projects/ai-product-compliance-evidence-vault",
+    "/Volumes/external/projects/ai-regulatory-change-impact-mapper",
+    "/Volumes/external/projects/ai_regulatory_compliance",
+    "/Volumes/external/projects/AIAutomatedatagovernance",
+    "/Volumes/external/projects/AIExportControlSanctionsScreener",
+    "/Volumes/external/projects/AIGDPRDataMappingPrivacyManager",
+    "/Volumes/external/projects/AIGovernanceModelOps",
+    "/Volumes/external/projects/AIHIPAATrainingComplianceAuditor",
+    "/Volumes/external/projects/AiRegulatoryCompliance",
+    "/Volumes/external/projects/third-party-risk-grc-suite"
+  ]
+}

@@ -1,0 +1,1936 @@
+{
+  "mapped": [
+    {
+      "project": "ai-agent-governance-control-tower",
+      "sourceKey": "ai-agent-governance-control-tower",
+      "source": "/Volumes/external/projects/ai-agent-governance-control-tower",
+      "canonical": "agent-governance-control-tower",
+      "kind": "source-workflow"
+    },
+    {
+      "project": "ai-board-governance-briefing-assistant",
+      "sourceKey": "ai-board-governance-briefing-assistant",
+      "source": "/Volumes/external/projects/ai-board-governance-briefing-assistant",
+      "canonical": "board-governance-briefing-assistant",
+      "kind": "source-workflow"
+    },
+    {
+      "project": "ai-product-compliance-evidence-vault",
+      "sourceKey": "ai-product-compliance-evidence-vault",
+      "source": "/Volumes/external/projects/ai-product-compliance-evidence-vault",
+      "canonical": "product-compliance-evidence-vault",
+      "kind": "source-workflow"
+    },
+    {
+      "project": "ai-regulatory-change-impact-mapper",
+      "sourceKey": "ai-regulatory-change-impact-mapper",
+      "source": "/Volumes/external/projects/ai-regulatory-change-impact-mapper",
+      "canonical": "regulatory-change-impact-mapper",
+      "kind": "source-workflow"
+    },
+    {
+      "project": "ai_regulatory_compliance",
+      "sourceKey": "governance",
+      "source": "/Volumes/external/projects/ai_regulatory_compliance",
+      "canonical": "governance",
+      "kind": "route"
+    },
+    {
+      "project": "ai_regulatory_compliance",
+      "sourceKey": "regulations",
+      "source": "/Volumes/external/projects/ai_regulatory_compliance",
+      "canonical": "regulations",
+      "kind": "route"
+    },
+    {
+      "project": "ai_regulatory_compliance",
+      "sourceKey": "assessments",
+      "source": "/Volumes/external/projects/ai_regulatory_compliance",
+      "canonical": "assessments",
+      "kind": "route"
+    },
+    {
+      "project": "ai_regulatory_compliance",
+      "sourceKey": "alerts",
+      "source": "/Volumes/external/projects/ai_regulatory_compliance",
+      "canonical": "alerts",
+      "kind": "route"
+    },
+    {
+      "project": "ai_regulatory_compliance",
+      "sourceKey": "ai/analyze",
+      "source": "/Volumes/external/projects/ai_regulatory_compliance",
+      "canonical": "analyze",
+      "kind": "route"
+    },
+    {
+      "project": "ai_regulatory_compliance",
+      "sourceKey": "ai/risk",
+      "source": "/Volumes/external/projects/ai_regulatory_compliance",
+      "canonical": "risk",
+      "kind": "route"
+    },
+    {
+      "project": "ai_regulatory_compliance",
+      "sourceKey": "ai/gap",
+      "source": "/Volumes/external/projects/ai_regulatory_compliance",
+      "canonical": "gap",
+      "kind": "route"
+    },
+    {
+      "project": "ai_regulatory_compliance",
+      "sourceKey": "ai/policy",
+      "source": "/Volumes/external/projects/ai_regulatory_compliance",
+      "canonical": "policy",
+      "kind": "route"
+    },
+    {
+      "project": "ai_regulatory_compliance",
+      "sourceKey": "ai/history",
+      "source": "/Volumes/external/projects/ai_regulatory_compliance",
+      "canonical": "history",
+      "kind": "route"
+    },
+    {
+      "project": "ai_regulatory_compliance",
+      "sourceKey": "ai/chat",
+      "source": "/Volumes/external/projects/ai_regulatory_compliance",
+      "canonical": "chat",
+      "kind": "route"
+    },
+    {
+      "project": "ai_regulatory_compliance",
+      "sourceKey": "ai/backlog-tools",
+      "source": "/Volumes/external/projects/ai_regulatory_compliance",
+      "canonical": "backlog-tools",
+      "kind": "route"
+    },
+    {
+      "project": "ai_regulatory_compliance",
+      "sourceKey": "calendar",
+      "source": "/Volumes/external/projects/ai_regulatory_compliance",
+      "canonical": "calendar",
+      "kind": "route"
+    },
+    {
+      "project": "ai_regulatory_compliance",
+      "sourceKey": "control-attestation-queue",
+      "source": "/Volumes/external/projects/ai_regulatory_compliance",
+      "canonical": "control-attestation-queue",
+      "kind": "route"
+    },
+    {
+      "project": "AIAutomatedatagovernance",
+      "sourceKey": "data-contract-monitor",
+      "source": "/Volumes/external/projects/AIAutomatedatagovernance",
+      "canonical": "data-contract-monitor",
+      "kind": "route"
+    },
+    {
+      "project": "AIExportControlSanctionsScreener",
+      "sourceKey": "sanctioned-entities",
+      "source": "/Volumes/external/projects/AIExportControlSanctionsScreener",
+      "canonical": "sanctioned-entities",
+      "kind": "route"
+    },
+    {
+      "project": "AIExportControlSanctionsScreener",
+      "sourceKey": "denied-parties",
+      "source": "/Volumes/external/projects/AIExportControlSanctionsScreener",
+      "canonical": "denied-parties",
+      "kind": "route"
+    },
+    {
+      "project": "AIExportControlSanctionsScreener",
+      "sourceKey": "restricted-countries",
+      "source": "/Volumes/external/projects/AIExportControlSanctionsScreener",
+      "canonical": "restricted-countries",
+      "kind": "route"
+    },
+    {
+      "project": "AIExportControlSanctionsScreener",
+      "sourceKey": "controlled-items",
+      "source": "/Volumes/external/projects/AIExportControlSanctionsScreener",
+      "canonical": "controlled-items",
+      "kind": "route"
+    },
+    {
+      "project": "AIExportControlSanctionsScreener",
+      "sourceKey": "transactions",
+      "source": "/Volumes/external/projects/AIExportControlSanctionsScreener",
+      "canonical": "transactions",
+      "kind": "route"
+    },
+    {
+      "project": "AIExportControlSanctionsScreener",
+      "sourceKey": "export-licenses",
+      "source": "/Volumes/external/projects/AIExportControlSanctionsScreener",
+      "canonical": "export-licenses",
+      "kind": "route"
+    },
+    {
+      "project": "AIExportControlSanctionsScreener",
+      "sourceKey": "compliance-documents",
+      "source": "/Volumes/external/projects/AIExportControlSanctionsScreener",
+      "canonical": "compliance-documents",
+      "kind": "route"
+    },
+    {
+      "project": "AIExportControlSanctionsScreener",
+      "sourceKey": "restricted-end-uses",
+      "source": "/Volumes/external/projects/AIExportControlSanctionsScreener",
+      "canonical": "restricted-end-uses",
+      "kind": "route"
+    },
+    {
+      "project": "AIExportControlSanctionsScreener",
+      "sourceKey": "screening-results",
+      "source": "/Volumes/external/projects/AIExportControlSanctionsScreener",
+      "canonical": "screening-results",
+      "kind": "route"
+    },
+    {
+      "project": "AIExportControlSanctionsScreener",
+      "sourceKey": "audit-logs",
+      "source": "/Volumes/external/projects/AIExportControlSanctionsScreener",
+      "canonical": "audit",
+      "kind": "route"
+    },
+    {
+      "project": "AIExportControlSanctionsScreener",
+      "sourceKey": "ai/screen-entity",
+      "source": "/Volumes/external/projects/AIExportControlSanctionsScreener",
+      "canonical": "screen-entity",
+      "kind": "route"
+    },
+    {
+      "project": "AIExportControlSanctionsScreener",
+      "sourceKey": "ai/denied-party-search",
+      "source": "/Volumes/external/projects/AIExportControlSanctionsScreener",
+      "canonical": "denied-party-search",
+      "kind": "route"
+    },
+    {
+      "project": "AIExportControlSanctionsScreener",
+      "sourceKey": "ai/sanctions-analysis",
+      "source": "/Volumes/external/projects/AIExportControlSanctionsScreener",
+      "canonical": "sanctions-analysis",
+      "kind": "route"
+    },
+    {
+      "project": "AIExportControlSanctionsScreener",
+      "sourceKey": "ai/screening-review",
+      "source": "/Volumes/external/projects/AIExportControlSanctionsScreener",
+      "canonical": "screening-review",
+      "kind": "route"
+    },
+    {
+      "project": "AIExportControlSanctionsScreener",
+      "sourceKey": "ai/classify-item",
+      "source": "/Volumes/external/projects/AIExportControlSanctionsScreener",
+      "canonical": "classify-item",
+      "kind": "route"
+    },
+    {
+      "project": "AIExportControlSanctionsScreener",
+      "sourceKey": "ai/dual-use-check",
+      "source": "/Volumes/external/projects/AIExportControlSanctionsScreener",
+      "canonical": "dual-use-check",
+      "kind": "route"
+    },
+    {
+      "project": "AIExportControlSanctionsScreener",
+      "sourceKey": "ai/eccn-lookup",
+      "source": "/Volumes/external/projects/AIExportControlSanctionsScreener",
+      "canonical": "eccn-lookup",
+      "kind": "route"
+    },
+    {
+      "project": "AIExportControlSanctionsScreener",
+      "sourceKey": "ai/assess-transaction",
+      "source": "/Volumes/external/projects/AIExportControlSanctionsScreener",
+      "canonical": "assess-transaction",
+      "kind": "route"
+    },
+    {
+      "project": "AIExportControlSanctionsScreener",
+      "sourceKey": "ai/transaction-patterns",
+      "source": "/Volumes/external/projects/AIExportControlSanctionsScreener",
+      "canonical": "transaction-patterns",
+      "kind": "route"
+    },
+    {
+      "project": "AIExportControlSanctionsScreener",
+      "sourceKey": "ai/red-flag-detect",
+      "source": "/Volumes/external/projects/AIExportControlSanctionsScreener",
+      "canonical": "red-flag-detect",
+      "kind": "route"
+    },
+    {
+      "project": "AIExportControlSanctionsScreener",
+      "sourceKey": "ai/route-analysis",
+      "source": "/Volumes/external/projects/AIExportControlSanctionsScreener",
+      "canonical": "route-analysis",
+      "kind": "route"
+    },
+    {
+      "project": "AIExportControlSanctionsScreener",
+      "sourceKey": "ai/country-risk",
+      "source": "/Volumes/external/projects/AIExportControlSanctionsScreener",
+      "canonical": "country-risk",
+      "kind": "route"
+    },
+    {
+      "project": "AIExportControlSanctionsScreener",
+      "sourceKey": "ai/embargo-impact",
+      "source": "/Volumes/external/projects/AIExportControlSanctionsScreener",
+      "canonical": "embargo-impact",
+      "kind": "route"
+    },
+    {
+      "project": "AIExportControlSanctionsScreener",
+      "sourceKey": "ai/license-recommendation",
+      "source": "/Volumes/external/projects/AIExportControlSanctionsScreener",
+      "canonical": "license-recommendation",
+      "kind": "route"
+    },
+    {
+      "project": "AIExportControlSanctionsScreener",
+      "sourceKey": "ai/license-monitor",
+      "source": "/Volumes/external/projects/AIExportControlSanctionsScreener",
+      "canonical": "license-monitor",
+      "kind": "route"
+    },
+    {
+      "project": "AIExportControlSanctionsScreener",
+      "sourceKey": "ai/review-document",
+      "source": "/Volumes/external/projects/AIExportControlSanctionsScreener",
+      "canonical": "review-document",
+      "kind": "route"
+    },
+    {
+      "project": "AIExportControlSanctionsScreener",
+      "sourceKey": "ai/end-use-analysis",
+      "source": "/Volumes/external/projects/AIExportControlSanctionsScreener",
+      "canonical": "end-use-analysis",
+      "kind": "route"
+    },
+    {
+      "project": "AIExportControlSanctionsScreener",
+      "sourceKey": "ai/generate-report",
+      "source": "/Volumes/external/projects/AIExportControlSanctionsScreener",
+      "canonical": "generate-report",
+      "kind": "route"
+    },
+    {
+      "project": "AIExportControlSanctionsScreener",
+      "sourceKey": "ai/compliance-gaps",
+      "source": "/Volumes/external/projects/AIExportControlSanctionsScreener",
+      "canonical": "compliance-gaps",
+      "kind": "route"
+    },
+    {
+      "project": "AIExportControlSanctionsScreener",
+      "sourceKey": "ai/penalty-risk",
+      "source": "/Volumes/external/projects/AIExportControlSanctionsScreener",
+      "canonical": "penalty-risk",
+      "kind": "route"
+    },
+    {
+      "project": "AIExportControlSanctionsScreener",
+      "sourceKey": "ai/vsd-advisor",
+      "source": "/Volumes/external/projects/AIExportControlSanctionsScreener",
+      "canonical": "vsd-advisor",
+      "kind": "route"
+    },
+    {
+      "project": "AIExportControlSanctionsScreener",
+      "sourceKey": "ai/audit-analysis",
+      "source": "/Volumes/external/projects/AIExportControlSanctionsScreener",
+      "canonical": "audit-analysis",
+      "kind": "route"
+    },
+    {
+      "project": "AIExportControlSanctionsScreener",
+      "sourceKey": "ai/regulatory-updates",
+      "source": "/Volumes/external/projects/AIExportControlSanctionsScreener",
+      "canonical": "regulatory-updates",
+      "kind": "route"
+    },
+    {
+      "project": "AIExportControlSanctionsScreener",
+      "sourceKey": "ai/training-generator",
+      "source": "/Volumes/external/projects/AIExportControlSanctionsScreener",
+      "canonical": "training-generator",
+      "kind": "route"
+    },
+    {
+      "project": "AIExportControlSanctionsScreener",
+      "sourceKey": "ai/bulk-screen",
+      "source": "/Volumes/external/projects/AIExportControlSanctionsScreener",
+      "canonical": "bulk-screen",
+      "kind": "route"
+    },
+    {
+      "project": "AIExportControlSanctionsScreener",
+      "sourceKey": "ai/compliance-alert-dashboard",
+      "source": "/Volumes/external/projects/AIExportControlSanctionsScreener",
+      "canonical": "compliance-alert-dashboard",
+      "kind": "route"
+    },
+    {
+      "project": "AIExportControlSanctionsScreener",
+      "sourceKey": "ai/transaction-auto-screen",
+      "source": "/Volumes/external/projects/AIExportControlSanctionsScreener",
+      "canonical": "transaction-auto-screen",
+      "kind": "route"
+    },
+    {
+      "project": "AIExportControlSanctionsScreener",
+      "sourceKey": "ai/beneficial-ownership-analyze",
+      "source": "/Volumes/external/projects/AIExportControlSanctionsScreener",
+      "canonical": "beneficial-ownership-analyze",
+      "kind": "route"
+    },
+    {
+      "project": "AIExportControlSanctionsScreener",
+      "sourceKey": "ai/supply-chain-trace",
+      "source": "/Volumes/external/projects/AIExportControlSanctionsScreener",
+      "canonical": "supply-chain-trace",
+      "kind": "route"
+    },
+    {
+      "project": "AIExportControlSanctionsScreener",
+      "sourceKey": "ai/training-simulate",
+      "source": "/Volumes/external/projects/AIExportControlSanctionsScreener",
+      "canonical": "training-simulate",
+      "kind": "route"
+    },
+    {
+      "project": "AIExportControlSanctionsScreener",
+      "sourceKey": "ai/competitor-benchmark",
+      "source": "/Volumes/external/projects/AIExportControlSanctionsScreener",
+      "canonical": "competitor-benchmark",
+      "kind": "route"
+    },
+    {
+      "project": "AIExportControlSanctionsScreener",
+      "sourceKey": "license-exception-audit",
+      "source": "/Volumes/external/projects/AIExportControlSanctionsScreener",
+      "canonical": "license-exception-audit",
+      "kind": "route"
+    },
+    {
+      "project": "AIExportControlSanctionsScreener",
+      "sourceKey": "missing-features",
+      "source": "/Volumes/external/projects/AIExportControlSanctionsScreener",
+      "canonical": "missing-features",
+      "kind": "route"
+    },
+    {
+      "project": "AIExportControlSanctionsScreener",
+      "sourceKey": "production-readiness",
+      "source": "/Volumes/external/projects/AIExportControlSanctionsScreener",
+      "canonical": "production-readiness",
+      "kind": "route"
+    },
+    {
+      "project": "AIGDPRDataMappingPrivacyManager",
+      "sourceKey": "processing-activities",
+      "source": "/Volumes/external/projects/AIGDPRDataMappingPrivacyManager/frontend/src/App.js",
+      "canonical": "processing-activities",
+      "kind": "definition"
+    },
+    {
+      "project": "AIGDPRDataMappingPrivacyManager",
+      "sourceKey": "data-subject-requests",
+      "source": "/Volumes/external/projects/AIGDPRDataMappingPrivacyManager/frontend/src/App.js",
+      "canonical": "data-subject-requests",
+      "kind": "definition"
+    },
+    {
+      "project": "AIGDPRDataMappingPrivacyManager",
+      "sourceKey": "privacy-impact-assessments",
+      "source": "/Volumes/external/projects/AIGDPRDataMappingPrivacyManager/frontend/src/App.js",
+      "canonical": "privacy-impact-assessments",
+      "kind": "definition"
+    },
+    {
+      "project": "AIGDPRDataMappingPrivacyManager",
+      "sourceKey": "consent-records",
+      "source": "/Volumes/external/projects/AIGDPRDataMappingPrivacyManager/frontend/src/App.js",
+      "canonical": "consent-records",
+      "kind": "definition"
+    },
+    {
+      "project": "AIGDPRDataMappingPrivacyManager",
+      "sourceKey": "data-breaches",
+      "source": "/Volumes/external/projects/AIGDPRDataMappingPrivacyManager/frontend/src/App.js",
+      "canonical": "data-breaches",
+      "kind": "definition"
+    },
+    {
+      "project": "AIGDPRDataMappingPrivacyManager",
+      "sourceKey": "vendors",
+      "source": "/Volumes/external/projects/AIGDPRDataMappingPrivacyManager/frontend/src/App.js",
+      "canonical": "vendors",
+      "kind": "definition"
+    },
+    {
+      "project": "AIGDPRDataMappingPrivacyManager",
+      "sourceKey": "retention-policies",
+      "source": "/Volumes/external/projects/AIGDPRDataMappingPrivacyManager/frontend/src/App.js",
+      "canonical": "retention-policies",
+      "kind": "definition"
+    },
+    {
+      "project": "AIGDPRDataMappingPrivacyManager",
+      "sourceKey": "cookie-compliance",
+      "source": "/Volumes/external/projects/AIGDPRDataMappingPrivacyManager/frontend/src/App.js",
+      "canonical": "cookie-compliance",
+      "kind": "definition"
+    },
+    {
+      "project": "AIGDPRDataMappingPrivacyManager",
+      "sourceKey": "cross-border-transfers",
+      "source": "/Volumes/external/projects/AIGDPRDataMappingPrivacyManager/frontend/src/App.js",
+      "canonical": "cross-border-transfers",
+      "kind": "definition"
+    },
+    {
+      "project": "AIGDPRDataMappingPrivacyManager",
+      "sourceKey": "training-records",
+      "source": "/Volumes/external/projects/AIGDPRDataMappingPrivacyManager/frontend/src/App.js",
+      "canonical": "training-records",
+      "kind": "definition"
+    },
+    {
+      "project": "AIGovernanceModelOps",
+      "sourceKey": "models",
+      "source": "/Volumes/external/projects/AIGovernanceModelOps",
+      "canonical": "models",
+      "kind": "route"
+    },
+    {
+      "project": "AIGovernanceModelOps",
+      "sourceKey": "datasets",
+      "source": "/Volumes/external/projects/AIGovernanceModelOps",
+      "canonical": "datasets",
+      "kind": "route"
+    },
+    {
+      "project": "AIGovernanceModelOps",
+      "sourceKey": "evaluations",
+      "source": "/Volumes/external/projects/AIGovernanceModelOps",
+      "canonical": "evaluations",
+      "kind": "route"
+    },
+    {
+      "project": "AIGovernanceModelOps",
+      "sourceKey": "deployments",
+      "source": "/Volumes/external/projects/AIGovernanceModelOps",
+      "canonical": "deployments",
+      "kind": "route"
+    },
+    {
+      "project": "AIGovernanceModelOps",
+      "sourceKey": "audit-logs",
+      "source": "/Volumes/external/projects/AIGovernanceModelOps",
+      "canonical": "audit",
+      "kind": "route"
+    },
+    {
+      "project": "AIGovernanceModelOps",
+      "sourceKey": "policies",
+      "source": "/Volumes/external/projects/AIGovernanceModelOps",
+      "canonical": "policies",
+      "kind": "route"
+    },
+    {
+      "project": "AIGovernanceModelOps",
+      "sourceKey": "incidents",
+      "source": "/Volumes/external/projects/AIGovernanceModelOps",
+      "canonical": "incidents",
+      "kind": "route"
+    },
+    {
+      "project": "AIGovernanceModelOps",
+      "sourceKey": "risk-register",
+      "source": "/Volumes/external/projects/AIGovernanceModelOps",
+      "canonical": "risk-register",
+      "kind": "route"
+    },
+    {
+      "project": "AIGovernanceModelOps",
+      "sourceKey": "model-cards",
+      "source": "/Volumes/external/projects/AIGovernanceModelOps",
+      "canonical": "model-cards",
+      "kind": "route"
+    },
+    {
+      "project": "AIGovernanceModelOps",
+      "sourceKey": "prompts",
+      "source": "/Volumes/external/projects/AIGovernanceModelOps",
+      "canonical": "prompts",
+      "kind": "route"
+    },
+    {
+      "project": "AIGovernanceModelOps",
+      "sourceKey": "ssp",
+      "source": "/Volumes/external/projects/AIGovernanceModelOps",
+      "canonical": "ssp",
+      "kind": "route"
+    },
+    {
+      "project": "AIGovernanceModelOps",
+      "sourceKey": "dpia-records",
+      "source": "/Volumes/external/projects/AIGovernanceModelOps",
+      "canonical": "dpia-records",
+      "kind": "route"
+    },
+    {
+      "project": "AIGovernanceModelOps",
+      "sourceKey": "redteam-findings",
+      "source": "/Volumes/external/projects/AIGovernanceModelOps",
+      "canonical": "redteam-findings",
+      "kind": "route"
+    },
+    {
+      "project": "AIGovernanceModelOps",
+      "sourceKey": "third-parties",
+      "source": "/Volumes/external/projects/AIGovernanceModelOps",
+      "canonical": "third-parties",
+      "kind": "route"
+    },
+    {
+      "project": "AIGovernanceModelOps",
+      "sourceKey": "training-runs",
+      "source": "/Volumes/external/projects/AIGovernanceModelOps",
+      "canonical": "training-runs",
+      "kind": "route"
+    },
+    {
+      "project": "AIGovernanceModelOps",
+      "sourceKey": "fine-tunes",
+      "source": "/Volumes/external/projects/AIGovernanceModelOps",
+      "canonical": "fine-tunes",
+      "kind": "route"
+    },
+    {
+      "project": "AIGovernanceModelOps",
+      "sourceKey": "controls",
+      "source": "/Volumes/external/projects/AIGovernanceModelOps",
+      "canonical": "controls",
+      "kind": "route"
+    },
+    {
+      "project": "AIGovernanceModelOps",
+      "sourceKey": "jurisdictions",
+      "source": "/Volumes/external/projects/AIGovernanceModelOps",
+      "canonical": "jurisdictions",
+      "kind": "route"
+    },
+    {
+      "project": "AIGovernanceModelOps",
+      "sourceKey": "ai/audit-bias",
+      "source": "/Volumes/external/projects/AIGovernanceModelOps",
+      "canonical": "audit-bias",
+      "kind": "route"
+    },
+    {
+      "project": "AIGovernanceModelOps",
+      "sourceKey": "ai/detect-drift",
+      "source": "/Volumes/external/projects/AIGovernanceModelOps",
+      "canonical": "detect-drift",
+      "kind": "route"
+    },
+    {
+      "project": "AIGovernanceModelOps",
+      "sourceKey": "ai/map-compliance",
+      "source": "/Volumes/external/projects/AIGovernanceModelOps",
+      "canonical": "map-compliance",
+      "kind": "route"
+    },
+    {
+      "project": "AIGovernanceModelOps",
+      "sourceKey": "ai/score-risk",
+      "source": "/Volumes/external/projects/AIGovernanceModelOps",
+      "canonical": "score-risk",
+      "kind": "route"
+    },
+    {
+      "project": "AIGovernanceModelOps",
+      "sourceKey": "ai/draft-policy",
+      "source": "/Volumes/external/projects/AIGovernanceModelOps",
+      "canonical": "draft-policy",
+      "kind": "route"
+    },
+    {
+      "project": "AIGovernanceModelOps",
+      "sourceKey": "ai/triage-incident",
+      "source": "/Volumes/external/projects/AIGovernanceModelOps",
+      "canonical": "triage-incident",
+      "kind": "route"
+    },
+    {
+      "project": "AIGovernanceModelOps",
+      "sourceKey": "ai/explain-decision",
+      "source": "/Volumes/external/projects/AIGovernanceModelOps",
+      "canonical": "explain-decision",
+      "kind": "route"
+    },
+    {
+      "project": "AIGovernanceModelOps",
+      "sourceKey": "ai/prompt-injection-test",
+      "source": "/Volumes/external/projects/AIGovernanceModelOps",
+      "canonical": "prompt-injection-test",
+      "kind": "route"
+    },
+    {
+      "project": "AIGovernanceModelOps",
+      "sourceKey": "ai/fairness-curve",
+      "source": "/Volumes/external/projects/AIGovernanceModelOps",
+      "canonical": "fairness-curve",
+      "kind": "route"
+    },
+    {
+      "project": "AIGovernanceModelOps",
+      "sourceKey": "ai/data-lineage",
+      "source": "/Volumes/external/projects/AIGovernanceModelOps",
+      "canonical": "data-lineage",
+      "kind": "route"
+    },
+    {
+      "project": "AIGovernanceModelOps",
+      "sourceKey": "ai/model-card-generator",
+      "source": "/Volumes/external/projects/AIGovernanceModelOps",
+      "canonical": "model-card-generator",
+      "kind": "route"
+    },
+    {
+      "project": "AIGovernanceModelOps",
+      "sourceKey": "ai/third-party-assess",
+      "source": "/Volumes/external/projects/AIGovernanceModelOps",
+      "canonical": "third-party-assess",
+      "kind": "route"
+    },
+    {
+      "project": "AIGovernanceModelOps",
+      "sourceKey": "ai/jailbreak-test",
+      "source": "/Volumes/external/projects/AIGovernanceModelOps",
+      "canonical": "jailbreak-test",
+      "kind": "route"
+    },
+    {
+      "project": "AIGovernanceModelOps",
+      "sourceKey": "ai/energy-cost",
+      "source": "/Volumes/external/projects/AIGovernanceModelOps",
+      "canonical": "energy-cost",
+      "kind": "route"
+    },
+    {
+      "project": "AIGovernanceModelOps",
+      "sourceKey": "ai/control-mapper",
+      "source": "/Volumes/external/projects/AIGovernanceModelOps",
+      "canonical": "control-mapper",
+      "kind": "route"
+    },
+    {
+      "project": "AIGovernanceModelOps",
+      "sourceKey": "ai/ssp-drafter",
+      "source": "/Volumes/external/projects/AIGovernanceModelOps",
+      "canonical": "ssp-drafter",
+      "kind": "route"
+    },
+    {
+      "project": "AIGovernanceModelOps",
+      "sourceKey": "ai/redteam-triage",
+      "source": "/Volumes/external/projects/AIGovernanceModelOps",
+      "canonical": "redteam-triage",
+      "kind": "route"
+    },
+    {
+      "project": "AIGovernanceModelOps",
+      "sourceKey": "ai/drift-narrative",
+      "source": "/Volumes/external/projects/AIGovernanceModelOps",
+      "canonical": "drift-narrative",
+      "kind": "route"
+    },
+    {
+      "project": "AIGovernanceModelOps",
+      "sourceKey": "ai/bias-summary",
+      "source": "/Volumes/external/projects/AIGovernanceModelOps",
+      "canonical": "bias-summary",
+      "kind": "route"
+    },
+    {
+      "project": "AIGovernanceModelOps",
+      "sourceKey": "disclosure-pack",
+      "source": "/Volumes/external/projects/AIGovernanceModelOps",
+      "canonical": "disclosure-pack",
+      "kind": "route"
+    },
+    {
+      "project": "AIGovernanceModelOps",
+      "sourceKey": "approvals",
+      "source": "/Volumes/external/projects/AIGovernanceModelOps",
+      "canonical": "approvals",
+      "kind": "route"
+    },
+    {
+      "project": "AIGovernanceModelOps",
+      "sourceKey": "webhooks",
+      "source": "/Volumes/external/projects/AIGovernanceModelOps",
+      "canonical": "webhooks",
+      "kind": "route"
+    },
+    {
+      "project": "AIGovernanceModelOps",
+      "sourceKey": "model-exception-waiver-board",
+      "source": "/Volumes/external/projects/AIGovernanceModelOps",
+      "canonical": "model-exception-waiver-board",
+      "kind": "route"
+    },
+    {
+      "project": "AIHIPAATrainingComplianceAuditor",
+      "sourceKey": "/employees",
+      "source": "/Volumes/external/projects/AIHIPAATrainingComplianceAuditor/frontend/src/App.jsx",
+      "canonical": "employees",
+      "kind": "definition"
+    },
+    {
+      "project": "AIHIPAATrainingComplianceAuditor",
+      "sourceKey": "/departments",
+      "source": "/Volumes/external/projects/AIHIPAATrainingComplianceAuditor/frontend/src/App.jsx",
+      "canonical": "departments",
+      "kind": "definition"
+    },
+    {
+      "project": "AIHIPAATrainingComplianceAuditor",
+      "sourceKey": "/courses",
+      "source": "/Volumes/external/projects/AIHIPAATrainingComplianceAuditor/frontend/src/App.jsx",
+      "canonical": "courses",
+      "kind": "definition"
+    },
+    {
+      "project": "AIHIPAATrainingComplianceAuditor",
+      "sourceKey": "/training-records",
+      "source": "/Volumes/external/projects/AIHIPAATrainingComplianceAuditor/frontend/src/App.jsx",
+      "canonical": "training-records",
+      "kind": "definition"
+    },
+    {
+      "project": "AIHIPAATrainingComplianceAuditor",
+      "sourceKey": "/documents",
+      "source": "/Volumes/external/projects/AIHIPAATrainingComplianceAuditor/frontend/src/App.jsx",
+      "canonical": "documents",
+      "kind": "definition"
+    },
+    {
+      "project": "AIHIPAATrainingComplianceAuditor",
+      "sourceKey": "/assessments",
+      "source": "/Volumes/external/projects/AIHIPAATrainingComplianceAuditor/frontend/src/App.jsx",
+      "canonical": "assessments",
+      "kind": "definition"
+    },
+    {
+      "project": "AIHIPAATrainingComplianceAuditor",
+      "sourceKey": "/policies",
+      "source": "/Volumes/external/projects/AIHIPAATrainingComplianceAuditor/frontend/src/App.jsx",
+      "canonical": "policies",
+      "kind": "definition"
+    },
+    {
+      "project": "AIHIPAATrainingComplianceAuditor",
+      "sourceKey": "/incidents",
+      "source": "/Volumes/external/projects/AIHIPAATrainingComplianceAuditor/frontend/src/App.jsx",
+      "canonical": "incidents",
+      "kind": "definition"
+    },
+    {
+      "project": "AIHIPAATrainingComplianceAuditor",
+      "sourceKey": "/baas",
+      "source": "/Volumes/external/projects/AIHIPAATrainingComplianceAuditor/frontend/src/App.jsx",
+      "canonical": "baas",
+      "kind": "definition"
+    },
+    {
+      "project": "AIHIPAATrainingComplianceAuditor",
+      "sourceKey": "/deadlines",
+      "source": "/Volumes/external/projects/AIHIPAATrainingComplianceAuditor/frontend/src/App.jsx",
+      "canonical": "deadlines",
+      "kind": "definition"
+    },
+    {
+      "project": "AIHIPAATrainingComplianceAuditor",
+      "sourceKey": "/sanctions",
+      "source": "/Volumes/external/projects/AIHIPAATrainingComplianceAuditor/frontend/src/App.jsx",
+      "canonical": "sanctions",
+      "kind": "definition"
+    },
+    {
+      "project": "AIHIPAATrainingComplianceAuditor",
+      "sourceKey": "/phi-inventory",
+      "source": "/Volumes/external/projects/AIHIPAATrainingComplianceAuditor/frontend/src/App.jsx",
+      "canonical": "phi-inventory",
+      "kind": "definition"
+    },
+    {
+      "project": "AIHIPAATrainingComplianceAuditor",
+      "sourceKey": "/risk-register",
+      "source": "/Volumes/external/projects/AIHIPAATrainingComplianceAuditor/frontend/src/App.jsx",
+      "canonical": "risk-register",
+      "kind": "definition"
+    },
+    {
+      "project": "AIHIPAATrainingComplianceAuditor",
+      "sourceKey": "/access-control",
+      "source": "/Volumes/external/projects/AIHIPAATrainingComplianceAuditor/frontend/src/App.jsx",
+      "canonical": "access-control",
+      "kind": "definition"
+    },
+    {
+      "project": "AIHIPAATrainingComplianceAuditor",
+      "sourceKey": "/audit-logs",
+      "source": "/Volumes/external/projects/AIHIPAATrainingComplianceAuditor/frontend/src/App.jsx",
+      "canonical": "audit",
+      "kind": "definition"
+    },
+    {
+      "project": "AIHIPAATrainingComplianceAuditor",
+      "sourceKey": "/ai/generate-policy",
+      "source": "/Volumes/external/projects/AIHIPAATrainingComplianceAuditor/frontend/src/App.jsx",
+      "canonical": "generate-policy",
+      "kind": "definition"
+    },
+    {
+      "project": "AIHIPAATrainingComplianceAuditor",
+      "sourceKey": "/ai/generate-quiz",
+      "source": "/Volumes/external/projects/AIHIPAATrainingComplianceAuditor/frontend/src/App.jsx",
+      "canonical": "generate-quiz",
+      "kind": "definition"
+    },
+    {
+      "project": "AIHIPAATrainingComplianceAuditor",
+      "sourceKey": "/ai/generate-course-content",
+      "source": "/Volumes/external/projects/AIHIPAATrainingComplianceAuditor/frontend/src/App.jsx",
+      "canonical": "generate-course-content",
+      "kind": "definition"
+    },
+    {
+      "project": "AIHIPAATrainingComplianceAuditor",
+      "sourceKey": "/ai/generate-assessment",
+      "source": "/Volumes/external/projects/AIHIPAATrainingComplianceAuditor/frontend/src/App.jsx",
+      "canonical": "generate-assessment",
+      "kind": "definition"
+    },
+    {
+      "project": "AIHIPAATrainingComplianceAuditor",
+      "sourceKey": "/ai/generate-audit-report",
+      "source": "/Volumes/external/projects/AIHIPAATrainingComplianceAuditor/frontend/src/App.jsx",
+      "canonical": "generate-audit-report",
+      "kind": "definition"
+    },
+    {
+      "project": "AIHIPAATrainingComplianceAuditor",
+      "sourceKey": "/ai/check-compliance",
+      "source": "/Volumes/external/projects/AIHIPAATrainingComplianceAuditor/frontend/src/App.jsx",
+      "canonical": "check-compliance",
+      "kind": "definition"
+    },
+    {
+      "project": "AIHIPAATrainingComplianceAuditor",
+      "sourceKey": "/ai/analyze-risk",
+      "source": "/Volumes/external/projects/AIHIPAATrainingComplianceAuditor/frontend/src/App.jsx",
+      "canonical": "analyze-risk",
+      "kind": "definition"
+    },
+    {
+      "project": "AIHIPAATrainingComplianceAuditor",
+      "sourceKey": "/ai/gap-analysis",
+      "source": "/Volumes/external/projects/AIHIPAATrainingComplianceAuditor/frontend/src/App.jsx",
+      "canonical": "analysis",
+      "kind": "definition"
+    },
+    {
+      "project": "AIHIPAATrainingComplianceAuditor",
+      "sourceKey": "/ai/security-assessment",
+      "source": "/Volumes/external/projects/AIHIPAATrainingComplianceAuditor/frontend/src/App.jsx",
+      "canonical": "security-assessment",
+      "kind": "definition"
+    },
+    {
+      "project": "AIHIPAATrainingComplianceAuditor",
+      "sourceKey": "/ai/analyze-phi-risk",
+      "source": "/Volumes/external/projects/AIHIPAATrainingComplianceAuditor/frontend/src/App.jsx",
+      "canonical": "analyze-phi-risk",
+      "kind": "definition"
+    },
+    {
+      "project": "AIHIPAATrainingComplianceAuditor",
+      "sourceKey": "/ai/analyze-audit-logs",
+      "source": "/Volumes/external/projects/AIHIPAATrainingComplianceAuditor/frontend/src/App.jsx",
+      "canonical": "analyze-audit-logs",
+      "kind": "definition"
+    },
+    {
+      "project": "AIHIPAATrainingComplianceAuditor",
+      "sourceKey": "/ai/incident-response",
+      "source": "/Volumes/external/projects/AIHIPAATrainingComplianceAuditor/frontend/src/App.jsx",
+      "canonical": "incident-response",
+      "kind": "definition"
+    },
+    {
+      "project": "AIHIPAATrainingComplianceAuditor",
+      "sourceKey": "/ai/investigate-incident",
+      "source": "/Volumes/external/projects/AIHIPAATrainingComplianceAuditor/frontend/src/App.jsx",
+      "canonical": "investigate-incident",
+      "kind": "definition"
+    },
+    {
+      "project": "AIHIPAATrainingComplianceAuditor",
+      "sourceKey": "/ai/training-recommendation",
+      "source": "/Volumes/external/projects/AIHIPAATrainingComplianceAuditor/frontend/src/App.jsx",
+      "canonical": "training-recommendation",
+      "kind": "definition"
+    },
+    {
+      "project": "AIHIPAATrainingComplianceAuditor",
+      "sourceKey": "/ai/analyze-employee",
+      "source": "/Volumes/external/projects/AIHIPAATrainingComplianceAuditor/frontend/src/App.jsx",
+      "canonical": "analyze-employee",
+      "kind": "definition"
+    },
+    {
+      "project": "AIHIPAATrainingComplianceAuditor",
+      "sourceKey": "/ai/analyze-department",
+      "source": "/Volumes/external/projects/AIHIPAATrainingComplianceAuditor/frontend/src/App.jsx",
+      "canonical": "analyze-department",
+      "kind": "definition"
+    },
+    {
+      "project": "AIHIPAATrainingComplianceAuditor",
+      "sourceKey": "/ai/plan-risk-mitigation",
+      "source": "/Volumes/external/projects/AIHIPAATrainingComplianceAuditor/frontend/src/App.jsx",
+      "canonical": "plan-risk-mitigation",
+      "kind": "definition"
+    },
+    {
+      "project": "AIHIPAATrainingComplianceAuditor",
+      "sourceKey": "/ai/recommend-sanction",
+      "source": "/Volumes/external/projects/AIHIPAATrainingComplianceAuditor/frontend/src/App.jsx",
+      "canonical": "recommend-sanction",
+      "kind": "definition"
+    },
+    {
+      "project": "AIHIPAATrainingComplianceAuditor",
+      "sourceKey": "/ai/prioritize-deadlines",
+      "source": "/Volumes/external/projects/AIHIPAATrainingComplianceAuditor/frontend/src/App.jsx",
+      "canonical": "prioritize-deadlines",
+      "kind": "definition"
+    },
+    {
+      "project": "AIHIPAATrainingComplianceAuditor",
+      "sourceKey": "/ai/baa-review",
+      "source": "/Volumes/external/projects/AIHIPAATrainingComplianceAuditor/frontend/src/App.jsx",
+      "canonical": "baa-review",
+      "kind": "definition"
+    },
+    {
+      "project": "AIHIPAATrainingComplianceAuditor",
+      "sourceKey": "/ai/monitor-baa",
+      "source": "/Volumes/external/projects/AIHIPAATrainingComplianceAuditor/frontend/src/App.jsx",
+      "canonical": "monitor-baa",
+      "kind": "definition"
+    },
+    {
+      "project": "AIHIPAATrainingComplianceAuditor",
+      "sourceKey": "/ai/validate-policy",
+      "source": "/Volumes/external/projects/AIHIPAATrainingComplianceAuditor/frontend/src/App.jsx",
+      "canonical": "validate-policy",
+      "kind": "definition"
+    },
+    {
+      "project": "AIHIPAATrainingComplianceAuditor",
+      "sourceKey": "/ai/review-document",
+      "source": "/Volumes/external/projects/AIHIPAATrainingComplianceAuditor/frontend/src/App.jsx",
+      "canonical": "review-document",
+      "kind": "definition"
+    },
+    {
+      "project": "AIHIPAATrainingComplianceAuditor",
+      "sourceKey": "/ai/review-access-control",
+      "source": "/Volumes/external/projects/AIHIPAATrainingComplianceAuditor/frontend/src/App.jsx",
+      "canonical": "review-access-control",
+      "kind": "definition"
+    },
+    {
+      "project": "AIHIPAATrainingComplianceAuditor",
+      "sourceKey": "/ai/analyze-training-records",
+      "source": "/Volumes/external/projects/AIHIPAATrainingComplianceAuditor/frontend/src/App.jsx",
+      "canonical": "training-records",
+      "kind": "definition"
+    },
+    {
+      "project": "AIHIPAATrainingComplianceAuditor",
+      "sourceKey": "/ai/analyze-employee-deep",
+      "source": "/Volumes/external/projects/AIHIPAATrainingComplianceAuditor/frontend/src/App.jsx",
+      "canonical": "analyze-employee-deep",
+      "kind": "definition"
+    },
+    {
+      "project": "AIHIPAATrainingComplianceAuditor",
+      "sourceKey": "/ai/analyze-department-deep",
+      "source": "/Volumes/external/projects/AIHIPAATrainingComplianceAuditor/frontend/src/App.jsx",
+      "canonical": "analyze-department-deep",
+      "kind": "definition"
+    },
+    {
+      "project": "AIHIPAATrainingComplianceAuditor",
+      "sourceKey": "/ai/auto-enroll-training",
+      "source": "/Volumes/external/projects/AIHIPAATrainingComplianceAuditor/frontend/src/App.jsx",
+      "canonical": "auto-enroll-training",
+      "kind": "definition"
+    },
+    {
+      "project": "AIHIPAATrainingComplianceAuditor",
+      "sourceKey": "/ai/detect-access-anomalies",
+      "source": "/Volumes/external/projects/AIHIPAATrainingComplianceAuditor/frontend/src/App.jsx",
+      "canonical": "detect-access-anomalies",
+      "kind": "definition"
+    },
+    {
+      "project": "AIHIPAATrainingComplianceAuditor",
+      "sourceKey": "/ai/draft-baa-renewal",
+      "source": "/Volumes/external/projects/AIHIPAATrainingComplianceAuditor/frontend/src/App.jsx",
+      "canonical": "draft-baa-renewal",
+      "kind": "definition"
+    },
+    {
+      "project": "AIHIPAATrainingComplianceAuditor",
+      "sourceKey": "/ai/generate-remediation",
+      "source": "/Volumes/external/projects/AIHIPAATrainingComplianceAuditor/frontend/src/App.jsx",
+      "canonical": "generate-remediation",
+      "kind": "definition"
+    },
+    {
+      "project": "AIHIPAATrainingComplianceAuditor",
+      "sourceKey": "/ai/vendor-security-assessment",
+      "source": "/Volumes/external/projects/AIHIPAATrainingComplianceAuditor/frontend/src/App.jsx",
+      "canonical": "vendor-security-assessment",
+      "kind": "definition"
+    },
+    {
+      "project": "AIHIPAATrainingComplianceAuditor",
+      "sourceKey": "/ai/breach-simulation",
+      "source": "/Volumes/external/projects/AIHIPAATrainingComplianceAuditor/frontend/src/App.jsx",
+      "canonical": "breach-simulation",
+      "kind": "definition"
+    },
+    {
+      "project": "AIHIPAATrainingComplianceAuditor",
+      "sourceKey": "/governed-training",
+      "source": "/Volumes/external/projects/AIHIPAATrainingComplianceAuditor/frontend/src/App.jsx",
+      "canonical": "governed-training",
+      "kind": "definition"
+    },
+    {
+      "project": "AIHIPAATrainingComplianceAuditor",
+      "sourceKey": "/baa-renewals",
+      "source": "/Volumes/external/projects/AIHIPAATrainingComplianceAuditor/frontend/src/App.jsx",
+      "canonical": "baa-renewals",
+      "kind": "definition"
+    },
+    {
+      "project": "AIHIPAATrainingComplianceAuditor",
+      "sourceKey": "/reminders",
+      "source": "/Volumes/external/projects/AIHIPAATrainingComplianceAuditor/frontend/src/App.jsx",
+      "canonical": "deadlines",
+      "kind": "definition"
+    },
+    {
+      "project": "AIHIPAATrainingComplianceAuditor",
+      "sourceKey": "/quiz-analytics",
+      "source": "/Volumes/external/projects/AIHIPAATrainingComplianceAuditor/frontend/src/App.jsx",
+      "canonical": "quiz-analytics",
+      "kind": "definition"
+    },
+    {
+      "project": "AIHIPAATrainingComplianceAuditor",
+      "sourceKey": "/ai-history",
+      "source": "/Volumes/external/projects/AIHIPAATrainingComplianceAuditor/frontend/src/App.jsx",
+      "canonical": "history",
+      "kind": "definition"
+    },
+    {
+      "project": "AIHIPAATrainingComplianceAuditor",
+      "sourceKey": "/minimum-necessary-training-drift",
+      "source": "/Volumes/external/projects/AIHIPAATrainingComplianceAuditor/frontend/src/App.jsx",
+      "canonical": "minimum-necessary-training-drift",
+      "kind": "definition"
+    },
+    {
+      "project": "AIHIPAATrainingComplianceAuditor",
+      "sourceKey": "cf-agentic-compliance-auditor-continuously-",
+      "source": "/Volumes/external/projects/AIHIPAATrainingComplianceAuditor",
+      "canonical": "agentic-compliance-auditor-continuously",
+      "kind": "route"
+    },
+    {
+      "project": "AIHIPAATrainingComplianceAuditor",
+      "sourceKey": "cf-breach-simulation-gamified-exercises-sco",
+      "source": "/Volumes/external/projects/AIHIPAATrainingComplianceAuditor",
+      "canonical": "breach-simulation-gamified-exercises-sco",
+      "kind": "route"
+    },
+    {
+      "project": "AIHIPAATrainingComplianceAuditor",
+      "sourceKey": "cf-adaptive-workforce-training-with-role-ba",
+      "source": "/Volumes/external/projects/AIHIPAATrainingComplianceAuditor",
+      "canonical": "adaptive-workforce-training-with-role-ba",
+      "kind": "route"
+    },
+    {
+      "project": "AIHIPAATrainingComplianceAuditor",
+      "sourceKey": "cf-real-time-access-monitoring-flagging-bul",
+      "source": "/Volumes/external/projects/AIHIPAATrainingComplianceAuditor",
+      "canonical": "real-time-access-monitoring-flagging-bul",
+      "kind": "route"
+    },
+    {
+      "project": "AIHIPAATrainingComplianceAuditor",
+      "sourceKey": "cf-ocr-policy-automation-extracting-require",
+      "source": "/Volumes/external/projects/AIHIPAATrainingComplianceAuditor",
+      "canonical": "ocr-policy-automation-extracting-require",
+      "kind": "route"
+    },
+    {
+      "project": "AIHIPAATrainingComplianceAuditor",
+      "sourceKey": "gap-limited-vendor-security-assessment-depth",
+      "source": "/Volumes/external/projects/AIHIPAATrainingComplianceAuditor",
+      "canonical": "limited-vendor-security-assessment-depth",
+      "kind": "route"
+    },
+    {
+      "project": "AIHIPAATrainingComplianceAuditor",
+      "sourceKey": "gap-no-breach-simulation-tabletop-endpoint",
+      "source": "/Volumes/external/projects/AIHIPAATrainingComplianceAuditor",
+      "canonical": "breach-simulation-tabletop-endpoint",
+      "kind": "route"
+    },
+    {
+      "project": "AIHIPAATrainingComplianceAuditor",
+      "sourceKey": "gap-no-insider-threat-behavior-baseline-drif",
+      "source": "/Volumes/external/projects/AIHIPAATrainingComplianceAuditor",
+      "canonical": "insider-threat-behavior-baseline-drif",
+      "kind": "route"
+    },
+    {
+      "project": "AIHIPAATrainingComplianceAuditor",
+      "sourceKey": "gap-no-user-facing-dashboard-backend-api",
+      "source": "/Volumes/external/projects/AIHIPAATrainingComplianceAuditor",
+      "canonical": "user-facing-dashboard-backend-api",
+      "kind": "route"
+    },
+    {
+      "project": "AIHIPAATrainingComplianceAuditor",
+      "sourceKey": "gap-no-real-time-phi-streaming-monitor",
+      "source": "/Volumes/external/projects/AIHIPAATrainingComplianceAuditor",
+      "canonical": "real-time-phi-streaming-monitor",
+      "kind": "route"
+    },
+    {
+      "project": "AIHIPAATrainingComplianceAuditor",
+      "sourceKey": "gap-no-ehr-system-integration",
+      "source": "/Volumes/external/projects/AIHIPAATrainingComplianceAuditor",
+      "canonical": "ehr-system-integration",
+      "kind": "route"
+    },
+    {
+      "project": "AIHIPAATrainingComplianceAuditor",
+      "sourceKey": "gap-no-external-regulator-communication-work",
+      "source": "/Volumes/external/projects/AIHIPAATrainingComplianceAuditor",
+      "canonical": "external-regulator-communication-work",
+      "kind": "route"
+    },
+    {
+      "project": "AIHIPAATrainingComplianceAuditor",
+      "sourceKey": "gap-no-webhook-surface-for-siem-integration",
+      "source": "/Volumes/external/projects/AIHIPAATrainingComplianceAuditor",
+      "canonical": "webhook-surface-for-siem-integration",
+      "kind": "route"
+    },
+    {
+      "project": "AIHIPAATrainingComplianceAuditor",
+      "sourceKey": "gap-no-multi-tenant-covered-entity-isolation",
+      "source": "/Volumes/external/projects/AIHIPAATrainingComplianceAuditor",
+      "canonical": "multi-tenant-covered-entity-isolation",
+      "kind": "route"
+    },
+    {
+      "project": "AiRegulatoryCompliance",
+      "sourceKey": "/gdpr-scanner",
+      "source": "/Volumes/external/projects/AiRegulatoryCompliance/frontend/src/pages/Dashboard.js",
+      "canonical": "gdpr-scanner",
+      "kind": "definition"
+    },
+    {
+      "project": "AiRegulatoryCompliance",
+      "sourceKey": "/audit-scheduler",
+      "source": "/Volumes/external/projects/AiRegulatoryCompliance/frontend/src/pages/Dashboard.js",
+      "canonical": "audit-scheduler",
+      "kind": "definition"
+    },
+    {
+      "project": "AiRegulatoryCompliance",
+      "sourceKey": "/violation-predictor",
+      "source": "/Volumes/external/projects/AiRegulatoryCompliance/frontend/src/pages/Dashboard.js",
+      "canonical": "violation-predictor",
+      "kind": "definition"
+    },
+    {
+      "project": "AiRegulatoryCompliance",
+      "sourceKey": "/training-tracker",
+      "source": "/Volumes/external/projects/AiRegulatoryCompliance/frontend/src/pages/Dashboard.js",
+      "canonical": "training-tracker",
+      "kind": "definition"
+    },
+    {
+      "project": "AiRegulatoryCompliance",
+      "sourceKey": "/privacy-policy-generator",
+      "source": "/Volumes/external/projects/AiRegulatoryCompliance/frontend/src/pages/Dashboard.js",
+      "canonical": "privacy-policy-generator",
+      "kind": "definition"
+    },
+    {
+      "project": "AiRegulatoryCompliance",
+      "sourceKey": "/compliance-checker",
+      "source": "/Volumes/external/projects/AiRegulatoryCompliance/frontend/src/pages/Dashboard.js",
+      "canonical": "compliance-checker",
+      "kind": "definition"
+    },
+    {
+      "project": "AiRegulatoryCompliance",
+      "sourceKey": "regulations",
+      "source": "/Volumes/external/projects/AiRegulatoryCompliance",
+      "canonical": "regulations",
+      "kind": "route"
+    },
+    {
+      "project": "AiRegulatoryCompliance",
+      "sourceKey": "compliance",
+      "source": "/Volumes/external/projects/AiRegulatoryCompliance",
+      "canonical": "compliance",
+      "kind": "route"
+    },
+    {
+      "project": "AiRegulatoryCompliance",
+      "sourceKey": "risks",
+      "source": "/Volumes/external/projects/AiRegulatoryCompliance",
+      "canonical": "risks",
+      "kind": "route"
+    },
+    {
+      "project": "AiRegulatoryCompliance",
+      "sourceKey": "policies",
+      "source": "/Volumes/external/projects/AiRegulatoryCompliance",
+      "canonical": "policies",
+      "kind": "route"
+    },
+    {
+      "project": "AiRegulatoryCompliance",
+      "sourceKey": "documents",
+      "source": "/Volumes/external/projects/AiRegulatoryCompliance",
+      "canonical": "documents",
+      "kind": "route"
+    },
+    {
+      "project": "AiRegulatoryCompliance",
+      "sourceKey": "incidents",
+      "source": "/Volumes/external/projects/AiRegulatoryCompliance",
+      "canonical": "incidents",
+      "kind": "route"
+    },
+    {
+      "project": "AiRegulatoryCompliance",
+      "sourceKey": "vendors",
+      "source": "/Volumes/external/projects/AiRegulatoryCompliance",
+      "canonical": "vendors",
+      "kind": "route"
+    },
+    {
+      "project": "AiRegulatoryCompliance",
+      "sourceKey": "audit",
+      "source": "/Volumes/external/projects/AiRegulatoryCompliance",
+      "canonical": "audit",
+      "kind": "route"
+    },
+    {
+      "project": "AiRegulatoryCompliance",
+      "sourceKey": "reports",
+      "source": "/Volumes/external/projects/AiRegulatoryCompliance",
+      "canonical": "reports",
+      "kind": "route"
+    },
+    {
+      "project": "AiRegulatoryCompliance",
+      "sourceKey": "training",
+      "source": "/Volumes/external/projects/AiRegulatoryCompliance",
+      "canonical": "training",
+      "kind": "route"
+    },
+    {
+      "project": "AiRegulatoryCompliance",
+      "sourceKey": "alerts",
+      "source": "/Volumes/external/projects/AiRegulatoryCompliance",
+      "canonical": "alerts",
+      "kind": "route"
+    },
+    {
+      "project": "AiRegulatoryCompliance",
+      "sourceKey": "frameworks",
+      "source": "/Volumes/external/projects/AiRegulatoryCompliance",
+      "canonical": "frameworks",
+      "kind": "route"
+    },
+    {
+      "project": "AiRegulatoryCompliance",
+      "sourceKey": "users",
+      "source": "/Volumes/external/projects/AiRegulatoryCompliance",
+      "canonical": "users",
+      "kind": "route"
+    },
+    {
+      "project": "AiRegulatoryCompliance",
+      "sourceKey": "ai-assistant",
+      "source": "/Volumes/external/projects/AiRegulatoryCompliance",
+      "canonical": "assistant",
+      "kind": "route"
+    },
+    {
+      "project": "AiRegulatoryCompliance",
+      "sourceKey": "compliance-gap-finder",
+      "source": "/Volumes/external/projects/AiRegulatoryCompliance",
+      "canonical": "compliance-gap-finder",
+      "kind": "route"
+    },
+    {
+      "project": "AiRegulatoryCompliance",
+      "sourceKey": "vendor-risk-scorer",
+      "source": "/Volumes/external/projects/AiRegulatoryCompliance",
+      "canonical": "vendor-risk-scorer",
+      "kind": "route"
+    },
+    {
+      "project": "AiRegulatoryCompliance",
+      "sourceKey": "remediation-planner",
+      "source": "/Volumes/external/projects/AiRegulatoryCompliance",
+      "canonical": "remediation-planner",
+      "kind": "route"
+    },
+    {
+      "project": "AiRegulatoryCompliance",
+      "sourceKey": "policy-conflict-detector",
+      "source": "/Volumes/external/projects/AiRegulatoryCompliance",
+      "canonical": "policy-conflict-detector",
+      "kind": "route"
+    },
+    {
+      "project": "AiRegulatoryCompliance",
+      "sourceKey": "control-effectiveness-assessment",
+      "source": "/Volumes/external/projects/AiRegulatoryCompliance",
+      "canonical": "control-effectiveness-assessment",
+      "kind": "route"
+    },
+    {
+      "project": "AiRegulatoryCompliance",
+      "sourceKey": "board-readiness-report",
+      "source": "/Volumes/external/projects/AiRegulatoryCompliance",
+      "canonical": "board-readiness-report",
+      "kind": "route"
+    },
+    {
+      "project": "AiRegulatoryCompliance",
+      "sourceKey": "evidence-exception-tracker",
+      "source": "/Volumes/external/projects/AiRegulatoryCompliance",
+      "canonical": "evidence-exception-tracker",
+      "kind": "route"
+    },
+    {
+      "project": "AiRegulatoryCompliance",
+      "sourceKey": "cf-continuous-compliance-monitoring",
+      "source": "/Volumes/external/projects/AiRegulatoryCompliance",
+      "canonical": "continuous-compliance-monitoring",
+      "kind": "route"
+    },
+    {
+      "project": "AiRegulatoryCompliance",
+      "sourceKey": "cf-remediation-workflow-automation",
+      "source": "/Volumes/external/projects/AiRegulatoryCompliance",
+      "canonical": "remediation-workflow-automation",
+      "kind": "route"
+    },
+    {
+      "project": "AiRegulatoryCompliance",
+      "sourceKey": "cf-aigenerated-audit-documentation",
+      "source": "/Volumes/external/projects/AiRegulatoryCompliance",
+      "canonical": "aigenerated-audit-documentation",
+      "kind": "route"
+    },
+    {
+      "project": "AiRegulatoryCompliance",
+      "sourceKey": "cf-policytocontrol-mapping",
+      "source": "/Volumes/external/projects/AiRegulatoryCompliance",
+      "canonical": "policytocontrol-mapping",
+      "kind": "route"
+    },
+    {
+      "project": "AiRegulatoryCompliance",
+      "sourceKey": "cf-thirdparty-compliance-exchange",
+      "source": "/Volumes/external/projects/AiRegulatoryCompliance",
+      "canonical": "thirdparty-compliance-exchange",
+      "kind": "route"
+    },
+    {
+      "project": "AiRegulatoryCompliance",
+      "sourceKey": "cf-boardready-executive-dashboards",
+      "source": "/Volumes/external/projects/AiRegulatoryCompliance",
+      "canonical": "boardready-executive-dashboards",
+      "kind": "route"
+    },
+    {
+      "project": "AiRegulatoryCompliance",
+      "sourceKey": "gap-no-compliancegapfinder-against-selected-fram",
+      "source": "/Volumes/external/projects/AiRegulatoryCompliance",
+      "canonical": "compliancegapfinder-against-selected-fram",
+      "kind": "route"
+    },
+    {
+      "project": "AiRegulatoryCompliance",
+      "sourceKey": "gap-no-vendorriskscorer-thirdparty-risk-ai",
+      "source": "/Volumes/external/projects/AiRegulatoryCompliance",
+      "canonical": "vendorriskscorer-thirdparty-risk-ai",
+      "kind": "route"
+    },
+    {
+      "project": "AiRegulatoryCompliance",
+      "sourceKey": "gap-no-policyconflictdetector-crosspolicy-contra",
+      "source": "/Volumes/external/projects/AiRegulatoryCompliance",
+      "canonical": "policyconflictdetector-crosspolicy-contra",
+      "kind": "route"
+    },
+    {
+      "project": "AiRegulatoryCompliance",
+      "sourceKey": "gap-no-controleffectivenessassessment",
+      "source": "/Volumes/external/projects/AiRegulatoryCompliance",
+      "canonical": "controleffectivenessassessment",
+      "kind": "route"
+    },
+    {
+      "project": "AiRegulatoryCompliance",
+      "sourceKey": "gap-no-remediationplanner-ai",
+      "source": "/Volumes/external/projects/AiRegulatoryCompliance",
+      "canonical": "remediationplanner-ai",
+      "kind": "route"
+    },
+    {
+      "project": "AiRegulatoryCompliance",
+      "sourceKey": "gap-no-boardreadinessreport-exec-summary",
+      "source": "/Volumes/external/projects/AiRegulatoryCompliance",
+      "canonical": "boardreadinessreport-exec-summary",
+      "kind": "route"
+    },
+    {
+      "project": "AiRegulatoryCompliance",
+      "sourceKey": "gap-limited-workflow-automation-action-assignmen",
+      "source": "/Volumes/external/projects/AiRegulatoryCompliance",
+      "canonical": "limited-workflow-automation-action-assignmen",
+      "kind": "route"
+    },
+    {
+      "project": "AiRegulatoryCompliance",
+      "sourceKey": "gap-no-dlpcasb-integrations",
+      "source": "/Volumes/external/projects/AiRegulatoryCompliance",
+      "canonical": "dlpcasb-integrations",
+      "kind": "route"
+    },
+    {
+      "project": "AiRegulatoryCompliance",
+      "sourceKey": "gap-no-policy-version-control-approval-workflow",
+      "source": "/Volumes/external/projects/AiRegulatoryCompliance",
+      "canonical": "policy-version-control-approval-workflow",
+      "kind": "route"
+    },
+    {
+      "project": "AiRegulatoryCompliance",
+      "sourceKey": "gap-no-compliance-calendar-autotrack-regulatory",
+      "source": "/Volumes/external/projects/AiRegulatoryCompliance",
+      "canonical": "compliance-calendar-autotrack-regulatory",
+      "kind": "route"
+    },
+    {
+      "project": "AiRegulatoryCompliance",
+      "sourceKey": "gap-no-incident-response-playbooks",
+      "source": "/Volumes/external/projects/AiRegulatoryCompliance",
+      "canonical": "incident-response-playbooks",
+      "kind": "route"
+    },
+    {
+      "project": "AiRegulatoryCompliance",
+      "sourceKey": "gap-no-public-webhook-for-siem-ingestion",
+      "source": "/Volumes/external/projects/AiRegulatoryCompliance",
+      "canonical": "public-webhook-for-siem-ingestion",
+      "kind": "route"
+    },
+    {
+      "project": "AiRegulatoryCompliance",
+      "sourceKey": "gap-no-esignature-integration-for-attestations",
+      "source": "/Volumes/external/projects/AiRegulatoryCompliance",
+      "canonical": "esignature-integration-for-attestations",
+      "kind": "route"
+    },
+    {
+      "project": "AiRegulatoryCompliance",
+      "sourceKey": "missing-features",
+      "source": "/Volumes/external/projects/AiRegulatoryCompliance",
+      "canonical": "missing-features",
+      "kind": "route"
+    },
+    {
+      "project": "AiRegulatoryCompliance",
+      "sourceKey": "production-readiness",
+      "source": "/Volumes/external/projects/AiRegulatoryCompliance",
+      "canonical": "production-readiness",
+      "kind": "route"
+    },
+    {
+      "project": "third-party-risk-grc-suite",
+      "sourceKey": "rules",
+      "source": "/Volumes/external/projects/third-party-risk-grc-suite/public/app.js",
+      "canonical": "rules",
+      "kind": "definition"
+    },
+    {
+      "project": "third-party-risk-grc-suite",
+      "sourceKey": "reports",
+      "source": "/Volumes/external/projects/third-party-risk-grc-suite/public/app.js",
+      "canonical": "reports",
+      "kind": "definition"
+    }
+  ],
+  "ignored": [
+    {
+      "project": "ai_regulatory_compliance",
+      "key": "login",
+      "source": "/Volumes/external/projects/ai_regulatory_compliance",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "ai_regulatory_compliance",
+      "key": "/",
+      "reason": "Home, dynamic record action, callback or fallback route."
+    },
+    {
+      "project": "ai_regulatory_compliance",
+      "key": "profile",
+      "source": "/Volumes/external/projects/ai_regulatory_compliance",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "ai_regulatory_compliance",
+      "key": "insights/timeline",
+      "source": "/Volumes/external/projects/ai_regulatory_compliance",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "ai_regulatory_compliance",
+      "key": "codex/custom-viz",
+      "source": "/Volumes/external/projects/ai_regulatory_compliance",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "ai_regulatory_compliance",
+      "key": "codex/operations",
+      "source": "/Volumes/external/projects/ai_regulatory_compliance",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "ai_regulatory_compliance",
+      "key": "dashboard",
+      "source": "/Volumes/external/projects/ai_regulatory_compliance",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "ai_regulatory_compliance",
+      "key": "/regulations/:id",
+      "reason": "Home, dynamic record action, callback or fallback route."
+    },
+    {
+      "project": "ai_regulatory_compliance",
+      "key": "/assessments/:id",
+      "reason": "Home, dynamic record action, callback or fallback route."
+    },
+    {
+      "project": "ai_regulatory_compliance",
+      "key": "*",
+      "reason": "Home, dynamic record action, callback or fallback route."
+    },
+    {
+      "project": "AIAutomatedatagovernance",
+      "key": "codex/custom-viz",
+      "source": "/Volumes/external/projects/AIAutomatedatagovernance",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AIAutomatedatagovernance",
+      "key": "codex/operations",
+      "source": "/Volumes/external/projects/AIAutomatedatagovernance",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AIAutomatedatagovernance",
+      "key": "/",
+      "reason": "Home, dynamic record action, callback or fallback route."
+    },
+    {
+      "project": "AIAutomatedatagovernance",
+      "key": "dashboard",
+      "source": "/Volumes/external/projects/AIAutomatedatagovernance",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AIAutomatedatagovernance",
+      "key": "custom-views",
+      "source": "/Volumes/external/projects/AIAutomatedatagovernance",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AIAutomatedatagovernance",
+      "key": "*",
+      "reason": "Home, dynamic record action, callback or fallback route."
+    },
+    {
+      "project": "AIExportControlSanctionsScreener",
+      "key": "insights/timeline",
+      "source": "/Volumes/external/projects/AIExportControlSanctionsScreener",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AIExportControlSanctionsScreener",
+      "key": "codex/custom-viz",
+      "source": "/Volumes/external/projects/AIExportControlSanctionsScreener",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AIExportControlSanctionsScreener",
+      "key": "codex/operations",
+      "source": "/Volumes/external/projects/AIExportControlSanctionsScreener",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AIExportControlSanctionsScreener",
+      "key": "batch03",
+      "source": "/Volumes/external/projects/AIExportControlSanctionsScreener",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AIExportControlSanctionsScreener",
+      "key": "/",
+      "reason": "Home, dynamic record action, callback or fallback route."
+    },
+    {
+      "project": "AIExportControlSanctionsScreener",
+      "key": "*",
+      "reason": "Home, dynamic record action, callback or fallback route."
+    },
+    {
+      "project": "AIGovernanceModelOps",
+      "key": "insights/timeline",
+      "source": "/Volumes/external/projects/AIGovernanceModelOps",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AIGovernanceModelOps",
+      "key": "codex/custom-viz",
+      "source": "/Volumes/external/projects/AIGovernanceModelOps",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AIGovernanceModelOps",
+      "key": "codex/operations",
+      "source": "/Volumes/external/projects/AIGovernanceModelOps",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AIGovernanceModelOps",
+      "key": "/",
+      "reason": "Home, dynamic record action, callback or fallback route."
+    },
+    {
+      "project": "AIGovernanceModelOps",
+      "key": "custom-views",
+      "source": "/Volumes/external/projects/AIGovernanceModelOps",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AIGovernanceModelOps",
+      "key": "*",
+      "reason": "Home, dynamic record action, callback or fallback route."
+    },
+    {
+      "project": "AIGovernanceModelOps",
+      "key": "login",
+      "source": "/Volumes/external/projects/AIGovernanceModelOps",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AIGovernanceModelOps",
+      "key": "/*",
+      "reason": "Home, dynamic record action, callback or fallback route."
+    },
+    {
+      "project": "AIHIPAATrainingComplianceAuditor",
+      "key": "/dashboard",
+      "source": "/Volumes/external/projects/AIHIPAATrainingComplianceAuditor/frontend/src/App.jsx",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AIHIPAATrainingComplianceAuditor",
+      "key": "/custom-views",
+      "source": "/Volumes/external/projects/AIHIPAATrainingComplianceAuditor/frontend/src/App.jsx",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AIHIPAATrainingComplianceAuditor",
+      "key": "dashboard",
+      "source": "/Volumes/external/projects/AIHIPAATrainingComplianceAuditor",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AIHIPAATrainingComplianceAuditor",
+      "key": "custom-views",
+      "source": "/Volumes/external/projects/AIHIPAATrainingComplianceAuditor",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AIHIPAATrainingComplianceAuditor",
+      "key": "insights/timeline",
+      "source": "/Volumes/external/projects/AIHIPAATrainingComplianceAuditor",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AIHIPAATrainingComplianceAuditor",
+      "key": "codex/custom-viz",
+      "source": "/Volumes/external/projects/AIHIPAATrainingComplianceAuditor",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AIHIPAATrainingComplianceAuditor",
+      "key": "codex/operations",
+      "source": "/Volumes/external/projects/AIHIPAATrainingComplianceAuditor",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AIHIPAATrainingComplianceAuditor",
+      "key": "/",
+      "reason": "Home, dynamic record action, callback or fallback route."
+    },
+    {
+      "project": "AIHIPAATrainingComplianceAuditor",
+      "key": "/ai/:feature",
+      "reason": "Home, dynamic record action, callback or fallback route."
+    },
+    {
+      "project": "AIHIPAATrainingComplianceAuditor",
+      "key": "/cf-vendor-ri[redacted]",
+      "reason": "Home, dynamic record action, callback or fallback route."
+    },
+    {
+      "project": "AIHIPAATrainingComplianceAuditor",
+      "key": "*",
+      "reason": "Home, dynamic record action, callback or fallback route."
+    },
+    {
+      "project": "AiRegulatoryCompliance",
+      "key": "codex/custom-viz",
+      "source": "/Volumes/external/projects/AiRegulatoryCompliance",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AiRegulatoryCompliance",
+      "key": "login",
+      "source": "/Volumes/external/projects/AiRegulatoryCompliance",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AiRegulatoryCompliance",
+      "key": "register",
+      "source": "/Volumes/external/projects/AiRegulatoryCompliance",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AiRegulatoryCompliance",
+      "key": "/*",
+      "reason": "Home, dynamic record action, callback or fallback route."
+    },
+    {
+      "project": "AiRegulatoryCompliance",
+      "key": "/",
+      "reason": "Home, dynamic record action, callback or fallback route."
+    },
+    {
+      "project": "AiRegulatoryCompliance",
+      "key": "profile",
+      "source": "/Volumes/external/projects/AiRegulatoryCompliance",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AiRegulatoryCompliance",
+      "key": "settings",
+      "source": "/Volumes/external/projects/AiRegulatoryCompliance",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AiRegulatoryCompliance",
+      "key": "custom-views",
+      "source": "/Volumes/external/projects/AiRegulatoryCompliance",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AiRegulatoryCompliance",
+      "key": "codex/operations",
+      "source": "/Volumes/external/projects/AiRegulatoryCompliance",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "third-party-risk-grc-suite",
+      "key": "dashboard",
+      "source": "/Volumes/external/projects/third-party-risk-grc-suite/public/app.js",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "third-party-risk-grc-suite",
+      "key": "ai-center",
+      "source": "/Volumes/external/projects/third-party-risk-grc-suite/public/app.js",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    }
+  ],
+  "migrationWarnings": [
+    {
+      "project": "ai-agent-governance-control-tower",
+      "reason": "No structured web feature declarations extracted. Source-specific engine/UI migration remains required."
+    },
+    {
+      "project": "ai-board-governance-briefing-assistant",
+      "reason": "No structured web feature declarations extracted. Source-specific engine/UI migration remains required."
+    },
+    {
+      "project": "ai-product-compliance-evidence-vault",
+      "reason": "No structured web feature declarations extracted. Source-specific engine/UI migration remains required."
+    },
+    {
+      "project": "ai-regulatory-change-impact-mapper",
+      "reason": "No structured web feature declarations extracted. Source-specific engine/UI migration remains required."
+    }
+  ]
+}

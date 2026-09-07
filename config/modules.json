@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ai-agent-governance-control-tower",
+    "name": "Agent governance control tower",
+    "sourceProject": "ai-agent-governance-control-tower",
+    "services": []
+  },
+  {
+    "id": "ai-board-governance-briefing-assistant",
+    "name": "Board governance briefing assistant",
+    "sourceProject": "ai-board-governance-briefing-assistant",
+    "services": []
+  },
+  {
+    "id": "ai-product-compliance-evidence-vault",
+    "name": "Product compliance evidence vault",
+    "sourceProject": "ai-product-compliance-evidence-vault",
+    "services": []
+  },
+  {
+    "id": "ai-regulatory-change-impact-mapper",
+    "name": "Regulatory change impact mapper",
+    "sourceProject": "ai-regulatory-change-impact-mapper",
+    "services": []
+  },
+  {
+    "id": "ai_regulatory_compliance",
+    "name": "Regulatory compliance",
+    "sourceProject": "ai_regulatory_compliance",
+    "services": []
+  },
+  {
+    "id": "AIAutomatedatagovernance",
+    "name": "Automatedatagovernance",
+    "sourceProject": "AIAutomatedatagovernance",
+    "services": []
+  },
+  {
+    "id": "AIExportControlSanctionsScreener",
+    "name": "Export control sanctions screener",
+    "sourceProject": "AIExportControlSanctionsScreener",
+    "services": []
+  },
+  {
+    "id": "AIGDPRDataMappingPrivacyManager",
+    "name": "Gdprdata mapping privacy manager",
+    "sourceProject": "AIGDPRDataMappingPrivacyManager",
+    "services": []
+  },
+  {
+    "id": "AIGovernanceModelOps",
+    "name": "Governance model ops",
+    "sourceProject": "AIGovernanceModelOps",
+    "services": []
+  },
+  {
+    "id": "AIHIPAATrainingComplianceAuditor",
+    "name": "Hipaatraining compliance auditor",
+    "sourceProject": "AIHIPAATrainingComplianceAuditor",
+    "services": []
+  },
+  {
+    "id": "AiRegulatoryCompliance",
+    "name": "Regulatory compliance",
+    "sourceProject": "AiRegulatoryCompliance",
+    "services": []
+  },
+  {
+    "id": "third-party-risk-grc-suite",
+    "name": "Third party risk grc suite",
+    "sourceProject": "third-party-risk-grc-suite",
+    "services": []
+  }
+]

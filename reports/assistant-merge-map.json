@@ -1,0 +1,705 @@
+[
+  {
+    "id": "ai-documents",
+    "title": "Writing, documents & knowledge",
+    "group": "AI assistants",
+    "path": "/assistants/ai-documents",
+    "featureIds": [
+      "notes",
+      "documents",
+      "templates",
+      "review-document",
+      "draft-policy",
+      "ssp-drafter",
+      "draft-baa-renewal",
+      "aigenerated-audit-documentation"
+    ],
+    "ai": true,
+    "representativeId": "notes",
+    "description": "One assistant for 8 related capabilities. Choose the work you need and combine your questions.",
+    "capabilities": [
+      {
+        "id": "notes",
+        "title": "Notes",
+        "originalPath": "/features/notes"
+      },
+      {
+        "id": "documents",
+        "title": "Documents",
+        "originalPath": "/features/documents"
+      },
+      {
+        "id": "templates",
+        "title": "Templates",
+        "originalPath": "/features/templates"
+      },
+      {
+        "id": "review-document",
+        "title": "Review document",
+        "originalPath": "/features/review-document"
+      },
+      {
+        "id": "draft-policy",
+        "title": "Draft policy",
+        "originalPath": "/features/draft-policy"
+      },
+      {
+        "id": "ssp-drafter",
+        "title": "Ssp drafter",
+        "originalPath": "/features/ssp-drafter"
+      },
+      {
+        "id": "draft-baa-renewal",
+        "title": "BAA Renewal Drafter",
+        "originalPath": "/features/draft-baa-renewal"
+      },
+      {
+        "id": "aigenerated-audit-documentation",
+        "title": "aigenerated audit documentation",
+        "originalPath": "/features/aigenerated-audit-documentation"
+      }
+    ]
+  },
+  {
+    "id": "ai-quality",
+    "title": "Risk, quality & compliance",
+    "group": "AI assistants",
+    "path": "/assistants/ai-quality",
+    "featureIds": [
+      "agent-governance-control-tower",
+      "product-compliance-evidence-vault",
+      "regulatory-change-impact-mapper",
+      "risk",
+      "policy",
+      "country-risk",
+      "compliance-gaps",
+      "penalty-risk",
+      "audit-analysis",
+      "regulatory-updates",
+      "compliance-alert-dashboard",
+      "audit-bias",
+      "map-compliance",
+      "score-risk",
+      "control-mapper",
+      "model-exception-waiver-board",
+      "generate-policy",
+      "analyze-risk",
+      "security-assessment",
+      "analyze-phi-risk",
+      "analyze-audit-logs",
+      "vendor-security-assessment",
+      "limited-vendor-security-assessment-depth",
+      "privacy-policy-generator",
+      "compliance-checker",
+      "control-effectiveness-assessment",
+      "compliancegapfinder-against-selected-fram",
+      "vendorriskscorer-thirdparty-risk-ai",
+      "controleffectivenessassessment"
+    ],
+    "ai": true,
+    "representativeId": "agent-governance-control-tower",
+    "description": "One assistant for 29 related capabilities. Choose the work you need and combine your questions.",
+    "capabilities": [
+      {
+        "id": "agent-governance-control-tower",
+        "title": "Agent governance control tower work",
+        "originalPath": "/features/agent-governance-control-tower"
+      },
+      {
+        "id": "product-compliance-evidence-vault",
+        "title": "Product compliance evidence vault work",
+        "originalPath": "/features/product-compliance-evidence-vault"
+      },
+      {
+        "id": "regulatory-change-impact-mapper",
+        "title": "Regulatory change impact mapper work",
+        "originalPath": "/features/regulatory-change-impact-mapper"
+      },
+      {
+        "id": "risk",
+        "title": "Risk",
+        "originalPath": "/features/risk"
+      },
+      {
+        "id": "policy",
+        "title": "Policy",
+        "originalPath": "/features/policy"
+      },
+      {
+        "id": "country-risk",
+        "title": "Country risk",
+        "originalPath": "/features/country-risk"
+      },
+      {
+        "id": "compliance-gaps",
+        "title": "Compliance gaps",
+        "originalPath": "/features/compliance-gaps"
+      },
+      {
+        "id": "penalty-risk",
+        "title": "Penalty risk",
+        "originalPath": "/features/penalty-risk"
+      },
+      {
+        "id": "audit-analysis",
+        "title": "Audit analysis",
+        "originalPath": "/features/audit-analysis"
+      },
+      {
+        "id": "regulatory-updates",
+        "title": "Regulatory updates",
+        "originalPath": "/features/regulatory-updates"
+      },
+      {
+        "id": "compliance-alert-dashboard",
+        "title": "Compliance alert dashboard",
+        "originalPath": "/features/compliance-alert-dashboard"
+      },
+      {
+        "id": "audit-bias",
+        "title": "Audit bias",
+        "originalPath": "/features/audit-bias"
+      },
+      {
+        "id": "map-compliance",
+        "title": "Map compliance",
+        "originalPath": "/features/map-compliance"
+      },
+      {
+        "id": "score-risk",
+        "title": "Score risk",
+        "originalPath": "/features/score-risk"
+      },
+      {
+        "id": "control-mapper",
+        "title": "Control mapper",
+        "originalPath": "/features/control-mapper"
+      },
+      {
+        "id": "model-exception-waiver-board",
+        "title": "Model exception waiver board",
+        "originalPath": "/features/model-exception-waiver-board"
+      },
+      {
+        "id": "generate-policy",
+        "title": "Policy Generator",
+        "originalPath": "/features/generate-policy"
+      },
+      {
+        "id": "analyze-risk",
+        "title": "Risk Analysis",
+        "originalPath": "/features/analyze-risk"
+      },
+      {
+        "id": "security-assessment",
+        "title": "Security Assessment",
+        "originalPath": "/features/security-assessment"
+      },
+      {
+        "id": "analyze-phi-risk",
+        "title": "PHI Risk Assessment",
+        "originalPath": "/features/analyze-phi-risk"
+      },
+      {
+        "id": "analyze-audit-logs",
+        "title": "Audit Log Analysis",
+        "originalPath": "/features/analyze-audit-logs"
+      },
+      {
+        "id": "vendor-security-assessment",
+        "title": "Vendor Security Assessment",
+        "originalPath": "/features/vendor-security-assessment"
+      },
+      {
+        "id": "limited-vendor-security-assessment-depth",
+        "title": "limited vendor security assessment depth",
+        "originalPath": "/features/limited-vendor-security-assessment-depth"
+      },
+      {
+        "id": "privacy-policy-generator",
+        "title": "AI Privacy Policy Generator",
+        "originalPath": "/features/privacy-policy-generator"
+      },
+      {
+        "id": "compliance-checker",
+        "title": "AI Compliance Checker",
+        "originalPath": "/features/compliance-checker"
+      },
+      {
+        "id": "control-effectiveness-assessment",
+        "title": "Control effectiveness assessment",
+        "originalPath": "/features/control-effectiveness-assessment"
+      },
+      {
+        "id": "compliancegapfinder-against-selected-fram",
+        "title": "compliancegapfinder against selected fram",
+        "originalPath": "/features/compliancegapfinder-against-selected-fram"
+      },
+      {
+        "id": "vendorriskscorer-thirdparty-risk-ai",
+        "title": "vendorriskscorer thirdparty risk ai",
+        "originalPath": "/features/vendorriskscorer-thirdparty-risk-ai"
+      },
+      {
+        "id": "controleffectivenessassessment",
+        "title": "controleffectivenessassessment",
+        "originalPath": "/features/controleffectivenessassessment"
+      }
+    ]
+  },
+  {
+    "id": "ai-general",
+    "title": "General assistance",
+    "group": "AI assistants",
+    "path": "/assistants/ai-general",
+    "featureIds": [
+      "board-governance-briefing-assistant",
+      "assessments",
+      "gap",
+      "chat",
+      "backlog-tools",
+      "screen-entity",
+      "denied-party-search",
+      "screening-review",
+      "dual-use-check",
+      "eccn-lookup",
+      "assess-transaction",
+      "transaction-patterns",
+      "embargo-impact",
+      "license-monitor",
+      "generate-report",
+      "vsd-advisor",
+      "training-generator",
+      "bulk-screen",
+      "transaction-auto-screen",
+      "supply-chain-trace",
+      "training-simulate",
+      "privacy-impact-assessments",
+      "training-records",
+      "training-runs",
+      "triage-incident",
+      "explain-decision",
+      "prompt-injection-test",
+      "fairness-curve",
+      "data-lineage",
+      "model-card-generator",
+      "third-party-assess",
+      "jailbreak-test",
+      "redteam-triage",
+      "drift-narrative",
+      "bias-summary",
+      "generate-quiz",
+      "generate-assessment",
+      "baa-review",
+      "review-access-control",
+      "quiz-analytics",
+      "adaptive-workforce-training-with-role-ba",
+      "gdpr-scanner",
+      "training-tracker",
+      "training",
+      "assistant",
+      "remediationplanner-ai"
+    ],
+    "ai": true,
+    "representativeId": "board-governance-briefing-assistant",
+    "description": "One assistant for 46 related capabilities. Choose the work you need and combine your questions.",
+    "capabilities": [
+      {
+        "id": "board-governance-briefing-assistant",
+        "title": "Board governance briefing assistant work",
+        "originalPath": "/features/board-governance-briefing-assistant"
+      },
+      {
+        "id": "assessments",
+        "title": "Assessments",
+        "originalPath": "/features/assessments"
+      },
+      {
+        "id": "gap",
+        "title": "Gap",
+        "originalPath": "/features/gap"
+      },
+      {
+        "id": "chat",
+        "title": "Chat",
+        "originalPath": "/features/chat"
+      },
+      {
+        "id": "backlog-tools",
+        "title": "Backlog tools",
+        "originalPath": "/features/backlog-tools"
+      },
+      {
+        "id": "screen-entity",
+        "title": "Screen entity",
+        "originalPath": "/features/screen-entity"
+      },
+      {
+        "id": "denied-party-search",
+        "title": "Denied party search",
+        "originalPath": "/features/denied-party-search"
+      },
+      {
+        "id": "screening-review",
+        "title": "Screening review",
+        "originalPath": "/features/screening-review"
+      },
+      {
+        "id": "dual-use-check",
+        "title": "Dual use check",
+        "originalPath": "/features/dual-use-check"
+      },
+      {
+        "id": "eccn-lookup",
+        "title": "Eccn lookup",
+        "originalPath": "/features/eccn-lookup"
+      },
+      {
+        "id": "assess-transaction",
+        "title": "Assess transaction",
+        "originalPath": "/features/assess-transaction"
+      },
+      {
+        "id": "transaction-patterns",
+        "title": "Transaction patterns",
+        "originalPath": "/features/transaction-patterns"
+      },
+      {
+        "id": "embargo-impact",
+        "title": "Embargo impact",
+        "originalPath": "/features/embargo-impact"
+      },
+      {
+        "id": "license-monitor",
+        "title": "License monitor",
+        "originalPath": "/features/license-monitor"
+      },
+      {
+        "id": "generate-report",
+        "title": "Generate report",
+        "originalPath": "/features/generate-report"
+      },
+      {
+        "id": "vsd-advisor",
+        "title": "Vsd advisor",
+        "originalPath": "/features/vsd-advisor"
+      },
+      {
+        "id": "training-generator",
+        "title": "Training generator",
+        "originalPath": "/features/training-generator"
+      },
+      {
+        "id": "bulk-screen",
+        "title": "Bulk screen",
+        "originalPath": "/features/bulk-screen"
+      },
+      {
+        "id": "transaction-auto-screen",
+        "title": "Transaction auto screen",
+        "originalPath": "/features/transaction-auto-screen"
+      },
+      {
+        "id": "supply-chain-trace",
+        "title": "Supply chain trace",
+        "originalPath": "/features/supply-chain-trace"
+      },
+      {
+        "id": "training-simulate",
+        "title": "Training simulate",
+        "originalPath": "/features/training-simulate"
+      },
+      {
+        "id": "privacy-impact-assessments",
+        "title": "Privacy Impact Assessments",
+        "originalPath": "/features/privacy-impact-assessments"
+      },
+      {
+        "id": "training-records",
+        "title": "Training Records",
+        "originalPath": "/features/training-records"
+      },
+      {
+        "id": "training-runs",
+        "title": "Training runs",
+        "originalPath": "/features/training-runs"
+      },
+      {
+        "id": "triage-incident",
+        "title": "Triage incident",
+        "originalPath": "/features/triage-incident"
+      },
+      {
+        "id": "explain-decision",
+        "title": "Explain decision",
+        "originalPath": "/features/explain-decision"
+      },
+      {
+        "id": "prompt-injection-test",
+        "title": "Prompt injection test",
+        "originalPath": "/features/prompt-injection-test"
+      },
+      {
+        "id": "fairness-curve",
+        "title": "Fairness curve",
+        "originalPath": "/features/fairness-curve"
+      },
+      {
+        "id": "data-lineage",
+        "title": "Data lineage",
+        "originalPath": "/features/data-lineage"
+      },
+      {
+        "id": "model-card-generator",
+        "title": "Model card generator",
+        "originalPath": "/features/model-card-generator"
+      },
+      {
+        "id": "third-party-assess",
+        "title": "Third party assess",
+        "originalPath": "/features/third-party-assess"
+      },
+      {
+        "id": "jailbreak-test",
+        "title": "Jailbreak test",
+        "originalPath": "/features/jailbreak-test"
+      },
+      {
+        "id": "redteam-triage",
+        "title": "Redteam triage",
+        "originalPath": "/features/redteam-triage"
+      },
+      {
+        "id": "drift-narrative",
+        "title": "Drift narrative",
+        "originalPath": "/features/drift-narrative"
+      },
+      {
+        "id": "bias-summary",
+        "title": "Bias summary",
+        "originalPath": "/features/bias-summary"
+      },
+      {
+        "id": "generate-quiz",
+        "title": "Quiz Generator",
+        "originalPath": "/features/generate-quiz"
+      },
+      {
+        "id": "generate-assessment",
+        "title": "Assessment Builder",
+        "originalPath": "/features/generate-assessment"
+      },
+      {
+        "id": "baa-review",
+        "title": "BAA Review",
+        "originalPath": "/features/baa-review"
+      },
+      {
+        "id": "review-access-control",
+        "title": "Access Review",
+        "originalPath": "/features/review-access-control"
+      },
+      {
+        "id": "quiz-analytics",
+        "title": "Quiz Analytics",
+        "originalPath": "/features/quiz-analytics"
+      },
+      {
+        "id": "adaptive-workforce-training-with-role-ba",
+        "title": "adaptive workforce training with role ba",
+        "originalPath": "/features/adaptive-workforce-training-with-role-ba"
+      },
+      {
+        "id": "gdpr-scanner",
+        "title": "AI GDPR Scanner",
+        "originalPath": "/features/gdpr-scanner"
+      },
+      {
+        "id": "training-tracker",
+        "title": "AI Training Tracker",
+        "originalPath": "/features/training-tracker"
+      },
+      {
+        "id": "training",
+        "title": "Training",
+        "originalPath": "/features/training"
+      },
+      {
+        "id": "assistant",
+        "title": "Assistant",
+        "originalPath": "/features/assistant"
+      },
+      {
+        "id": "remediationplanner-ai",
+        "title": "remediationplanner ai",
+        "originalPath": "/features/remediationplanner-ai"
+      }
+    ]
+  },
+  {
+    "id": "ai-insights",
+    "title": "Insights & recommendations",
+    "group": "AI assistants",
+    "path": "/assistants/ai-insights",
+    "featureIds": [
+      "analyze",
+      "sanctions-analysis",
+      "classify-item",
+      "red-flag-detect",
+      "route-analysis",
+      "license-recommendation",
+      "end-use-analysis",
+      "beneficial-ownership-analyze",
+      "competitor-benchmark",
+      "detect-drift",
+      "analysis",
+      "training-recommendation",
+      "analyze-employee",
+      "analyze-employee-deep",
+      "analyze-department-deep",
+      "violation-predictor"
+    ],
+    "ai": true,
+    "representativeId": "analyze",
+    "description": "One assistant for 16 related capabilities. Choose the work you need and combine your questions.",
+    "capabilities": [
+      {
+        "id": "analyze",
+        "title": "Analyze",
+        "originalPath": "/features/analyze"
+      },
+      {
+        "id": "sanctions-analysis",
+        "title": "Sanctions analysis",
+        "originalPath": "/features/sanctions-analysis"
+      },
+      {
+        "id": "classify-item",
+        "title": "Classify item",
+        "originalPath": "/features/classify-item"
+      },
+      {
+        "id": "red-flag-detect",
+        "title": "Red flag detect",
+        "originalPath": "/features/red-flag-detect"
+      },
+      {
+        "id": "route-analysis",
+        "title": "Route analysis",
+        "originalPath": "/features/route-analysis"
+      },
+      {
+        "id": "license-recommendation",
+        "title": "License recommendation",
+        "originalPath": "/features/license-recommendation"
+      },
+      {
+        "id": "end-use-analysis",
+        "title": "End use analysis",
+        "originalPath": "/features/end-use-analysis"
+      },
+      {
+        "id": "beneficial-ownership-analyze",
+        "title": "Beneficial ownership analyze",
+        "originalPath": "/features/beneficial-ownership-analyze"
+      },
+      {
+        "id": "competitor-benchmark",
+        "title": "Competitor benchmark",
+        "originalPath": "/features/competitor-benchmark"
+      },
+      {
+        "id": "detect-drift",
+        "title": "Detect drift",
+        "originalPath": "/features/detect-drift"
+      },
+      {
+        "id": "analysis",
+        "title": "Gap Analysis",
+        "originalPath": "/features/analysis"
+      },
+      {
+        "id": "training-recommendation",
+        "title": "Training Recommender",
+        "originalPath": "/features/training-recommendation"
+      },
+      {
+        "id": "analyze-employee",
+        "title": "Employee Analysis",
+        "originalPath": "/features/analyze-employee"
+      },
+      {
+        "id": "analyze-employee-deep",
+        "title": "Employee Deep Analysis",
+        "originalPath": "/features/analyze-employee-deep"
+      },
+      {
+        "id": "analyze-department-deep",
+        "title": "Department Deep Analysis",
+        "originalPath": "/features/analyze-department-deep"
+      },
+      {
+        "id": "violation-predictor",
+        "title": "AI Violation Predictor",
+        "originalPath": "/features/violation-predictor"
+      }
+    ]
+  },
+  {
+    "id": "ai-creative",
+    "title": "Creative & design",
+    "group": "AI assistants",
+    "path": "/assistants/ai-creative",
+    "featureIds": [
+      "history"
+    ],
+    "ai": true,
+    "representativeId": "history",
+    "description": "One assistant for 1 related capabilities. Choose the work you need and combine your questions.",
+    "capabilities": [
+      {
+        "id": "history",
+        "title": "History",
+        "originalPath": "/features/history"
+      }
+    ]
+  },
+  {
+    "id": "ai-finance",
+    "title": "Finance & reconciliation",
+    "group": "AI assistants",
+    "path": "/assistants/ai-finance",
+    "featureIds": [
+      "energy-cost"
+    ],
+    "ai": true,
+    "representativeId": "energy-cost",
+    "description": "One assistant for 1 related capabilities. Choose the work you need and combine your questions.",
+    "capabilities": [
+      {
+        "id": "energy-cost",
+        "title": "Energy cost",
+        "originalPath": "/features/energy-cost"
+      }
+    ]
+  },
+  {
+    "id": "ai-planning",
+    "title": "Planning & scheduling",
+    "group": "AI assistants",
+    "path": "/assistants/ai-planning",
+    "featureIds": [
+      "audit-scheduler"
+    ],
+    "ai": true,
+    "representativeId": "audit-scheduler",
+    "description": "One assistant for 1 related capabilities. Choose the work you need and combine your questions.",
+    "capabilities": [
+      {
+        "id": "audit-scheduler",
+        "title": "AI Audit Scheduler",
+        "originalPath": "/features/audit-scheduler"
+      }
+    ]
+  }
+]
